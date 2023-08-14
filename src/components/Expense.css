@@ -1,0 +1,31 @@
+.exp-row {
+  display: flex;
+  padding: 15px;
+  border: 2px dashed #bbb;
+  border-radius: 5px;
+  align-items: center;
+  gap: 15px;
+}
+
+.exp-row .date {
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.exp-row .date .day {
+  font-size: 30px;
+}
+
+.exp-row .date .month {
+  text-transform: uppercase;
+}
+
+.exp-row .title {
+  flex-grow: 1;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.exp-row .amount {
+  font-size: 34px;
+}

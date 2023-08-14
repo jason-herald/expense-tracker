@@ -1,0 +1,77 @@
+#root {
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  flex-grow: 1;
+  max-width: 700px;
+  padding: 5vh 5vw;
+  background-color: white;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.input-form {
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.input-form .inputbox-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.input-form .spacer {
+  flex-grow: 1;
+  width: 100%;
+}
+
+.input-form .add {
+  border: none;
+  padding: 10px 20px;
+  font-family: var(--default-font);
+  font-size: 16px;
+  background: var(--grad);
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  transition: transform 0.2s ease;
+}
+
+.input-form .add:hover {
+  transform: translate(0, 1px);
+}
+
+.expense-wrapper {
+  padding-top: 20px;
+}
+
+.expense-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.expense-header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expense-header-row select {
+  padding: 10px 20px;
+  font-family: var(--default-font);
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
